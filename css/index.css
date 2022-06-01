@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #2E354F;
+}
+
+/* Typography */
+
+h1 {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a {
+    color: #ef5839
+}
+
+a:hover,
+a:focus {
+    color: #d4b44c;
+}
+
+/* Layout */
+
+.top {
+    background: #2E354F;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.middle {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.bottom {
+    background: #2E354F;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #d4b44c;
+    color:#2E354F;
+}
+
+.btn-contact {
+    background: #ef5839;
+    color:#fff;
+}
+
+.btn-info {
+    background: #fff;
+    color: #2E354F;
+}
